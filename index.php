@@ -119,11 +119,11 @@
 
 if(isset($_POST['submit'])){
 
-    $amount = '100'; //Amount to transact 
+    $amount = '1'; //Amount to transact 
     $phonenumber = $_POST['phone-number']; // Phone number paying
     
     $Account_no = 'COMRADE MARKET'; // Enter account number optional
-    $url = 'https://tinypesa.com/api/v1/express/initialize';
+    $url = 'https://https://tinypesa.com/kaneronlinecyber';
     $data = array(
         'amount' => $amount,
         'msisdn' => $phonenumber,
